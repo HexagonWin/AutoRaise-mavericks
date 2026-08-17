@@ -28,6 +28,14 @@
 #include <Carbon/Carbon.h>
 #include <libproc.h>
 
+#ifndef kAXValueTypeCGSize
+#define kAXValueTypeCGSize ((AXValueType)2)
+#endif
+
+#ifndef kAXValueTypeCGPoint
+#define kAXValueTypeCGPoint ((AXValueType)1)
+#endif
+
 #define AUTORAISE_VERSION "5.6"
 #define STACK_THRESHOLD 20
 
